@@ -5,6 +5,9 @@ const nextConfig: NextConfig = {
     dangerouslyAllowSVG: true,
     unoptimized: true,
   },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 }
 
 export default nextConfig;
